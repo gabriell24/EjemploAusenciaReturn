@@ -1,0 +1,15 @@
+import example.*
+import unTercero.*
+describe ""
+{
+	var dia = new Date()
+	var fecha = new Ejemplo(dia)
+test "testX" 
+	{
+	assert.equals("27", fecha.hoy())
+	}
+test "otroTest"
+	{
+	assert.that(comparar.diaMayorA(15))
+	}
+}
