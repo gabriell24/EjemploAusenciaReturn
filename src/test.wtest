@@ -1,14 +1,14 @@
 import example.*
 import unTercero.*
-describe ""
+describe "Test para return de wollok"
 {
 	var dia = new Date()
 	var fecha = new Ejemplo(dia)
-test "testX" 
+test "Falta un return e igual comparo con el dia de hoy" 
 	{
 	assert.equals("27", fecha.hoy())
 	}
-test "otroTest"
+test "Utiliza el metodo que falta return, comparo con un dia por parametro"
 	{
 	assert.that(comparar.diaMayorA(15))
 	}
